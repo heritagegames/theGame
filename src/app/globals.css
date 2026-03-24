@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-gray-100 antialiased;
+    font-family: var(--font-display);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .region-card-northeast {
+    @apply border-northeast/40 bg-northeast/10 hover:bg-northeast/20;
+  }
+  .region-card-southeast {
+    @apply border-southeast/40 bg-southeast/10 hover:bg-southeast/20;
+  }
+  .region-card-central {
+    @apply border-central/40 bg-central/10 hover:bg-central/20;
+  }
+  .region-card-west {
+    @apply border-west/40 bg-west/10 hover:bg-west/20;
+  }
+
+  .btn-primary {
+    @apply rounded-lg px-5 py-2.5 font-semibold text-sm bg-indigo-600 hover:bg-indigo-500
+           active:bg-indigo-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-ghost {
+    @apply rounded-lg px-4 py-2 text-sm text-gray-400 hover:text-gray-100 hover:bg-white/5 transition-colors;
+  }
+
+  .card {
+    @apply rounded-xl border border-white/10 bg-white/5 p-4;
+  }
+}

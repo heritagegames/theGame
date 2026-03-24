@@ -1,0 +1,409 @@
+[
+  {
+    "id": "ne-q-001",
+    "type": "question",
+    "regionIds": ["northeast"],
+    "yearRange": { "start": 1900, "end": 1945 },
+    "difficulty": "medium",
+    "points": 10,
+    "content": {
+      "prompt": "What major economic crisis began in New York City in 1929 and affected the entire country?",
+      "answer": "The Great Depression (stock market crash / Black Tuesday)",
+      "options": ["The Dust Bowl", "The Great Depression", "The Panic of 1920", "World War I recession"],
+      "hint": "It started on Wall Street"
+    },
+    "tags": ["history", "economics", "new-york"],
+    "source": "history"
+  },
+  {
+    "id": "ne-q-002",
+    "type": "question",
+    "regionIds": ["northeast"],
+    "yearRange": { "start": 1960, "end": 1979 },
+    "difficulty": "hard",
+    "points": 15,
+    "content": {
+      "prompt": "In 1969, which event in New York drew over 400,000 people to a music festival in Bethel?",
+      "answer": "Woodstock",
+      "options": ["Woodstock", "The Newport Folk Festival", "The Fillmore East Concert", "Central Park SummerStage"],
+      "hint": "Three days of peace and music"
+    },
+    "tags": ["culture", "music", "new-york", "1960s"],
+    "source": "culture"
+  },
+  {
+    "id": "ne-q-003",
+    "type": "question",
+    "regionIds": ["northeast"],
+    "yearRange": null,
+    "difficulty": "easy",
+    "points": 5,
+    "content": {
+      "prompt": "What is the capital city of Massachusetts?",
+      "answer": "Boston",
+      "options": ["Boston", "Springfield", "Cambridge", "Worcester"],
+      "hint": "Home of the Red Sox and the Freedom Trail"
+    },
+    "tags": ["geography", "capitals"],
+    "source": "geography"
+  },
+  {
+    "id": "ne-q-004",
+    "type": "question",
+    "regionIds": ["northeast"],
+    "yearRange": { "start": 1990, "end": 2010 },
+    "difficulty": "medium",
+    "points": 10,
+    "content": {
+      "prompt": "Which northeastern city hosted the 1996 Democratic National Convention?",
+      "answer": "Chicago (technically Midwest — but this is a trick question; it was held in Chicago)",
+      "options": ["New York City", "Boston", "Philadelphia", "Chicago"],
+      "hint": "Not actually in the Northeast — do you know where it really was?"
+    },
+    "tags": ["politics", "history"],
+    "source": "history"
+  },
+  {
+    "id": "ne-task-001",
+    "type": "task",
+    "regionIds": ["northeast"],
+    "yearRange": null,
+    "difficulty": "easy",
+    "points": 8,
+    "content": {
+      "prompt": "Northeast Challenge: Name 5 states in the Northeast region in 30 seconds.",
+      "taskDescription": "All players watch. The active team has 30 seconds to name 5 Northeast states. Each correct state = 1 point bonus.",
+      "answer": "Maine, Vermont, New Hampshire, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania"
+    },
+    "tags": ["geography", "speed-round"],
+    "source": "geography"
+  },
+  {
+    "id": "ne-item-001",
+    "type": "item",
+    "regionIds": ["northeast"],
+    "yearRange": null,
+    "difficulty": "medium",
+    "points": 0,
+    "content": {
+      "prompt": "You found the Lighthouse Lens!",
+      "itemName": "Lighthouse Lens",
+      "itemEffect": "Use once to illuminate a hidden question card — reveal the answer options before choosing."
+    },
+    "tags": ["item", "maritime"],
+    "source": "geography"
+  },
+  {
+    "id": "se-q-001",
+    "type": "question",
+    "regionIds": ["southeast"],
+    "yearRange": { "start": 1955, "end": 1975 },
+    "difficulty": "medium",
+    "points": 10,
+    "content": {
+      "prompt": "In 1955, Rosa Parks refused to give up her seat on a bus in which Alabama city, sparking the Montgomery Bus Boycott?",
+      "answer": "Montgomery, Alabama",
+      "options": ["Birmingham", "Montgomery", "Selma", "Mobile"],
+      "hint": "It's the capital of Alabama"
+    },
+    "tags": ["history", "civil-rights", "alabama"],
+    "source": "history"
+  },
+  {
+    "id": "se-q-002",
+    "type": "question",
+    "regionIds": ["southeast"],
+    "yearRange": { "start": 2000, "end": 2010 },
+    "difficulty": "hard",
+    "points": 15,
+    "content": {
+      "prompt": "In 2005, which Category 5 hurricane devastated New Orleans and the Gulf Coast?",
+      "answer": "Hurricane Katrina",
+      "options": ["Hurricane Katrina", "Hurricane Rita", "Hurricane Ivan", "Hurricane Wilma"],
+      "hint": "It caused catastrophic flooding when the levees broke"
+    },
+    "tags": ["weather", "disaster", "louisiana", "2000s"],
+    "source": "weather"
+  },
+  {
+    "id": "se-q-003",
+    "type": "question",
+    "regionIds": ["southeast"],
+    "yearRange": null,
+    "difficulty": "easy",
+    "points": 5,
+    "content": {
+      "prompt": "What is the nickname for the state of Florida?",
+      "answer": "The Sunshine State",
+      "options": ["The Sunshine State", "The Peach State", "The Palmetto State", "The Everglades State"],
+      "hint": "Think about the weather there"
+    },
+    "tags": ["geography", "trivia", "florida"],
+    "source": "geography"
+  },
+  {
+    "id": "se-q-004",
+    "type": "question",
+    "regionIds": ["southeast"],
+    "yearRange": { "start": 1980, "end": 2000 },
+    "difficulty": "medium",
+    "points": 10,
+    "content": {
+      "prompt": "Atlanta hosted which major international sporting event in 1996?",
+      "answer": "The Summer Olympics",
+      "options": ["The Super Bowl", "The Summer Olympics", "The World Cup", "The PGA Championship"],
+      "hint": "It happens every 4 years and features athletes from around the world"
+    },
+    "tags": ["sports", "georgia", "1990s"],
+    "source": "culture"
+  },
+  {
+    "id": "se-task-001",
+    "type": "task",
+    "regionIds": ["southeast"],
+    "yearRange": null,
+    "difficulty": "medium",
+    "points": 12,
+    "content": {
+      "prompt": "Southeast Taste Test: Name 4 foods or dishes that originated in the American South.",
+      "taskDescription": "Team has 45 seconds. Judge accepts reasonable answers. 3 points per correct answer.",
+      "answer": "Fried chicken, grits, biscuits and gravy, sweet tea, gumbo, jambalaya, peach cobbler, cornbread, BBQ pulled pork, pecan pie"
+    },
+    "tags": ["culture", "food", "speed-round"],
+    "source": "culture"
+  },
+  {
+    "id": "se-item-001",
+    "type": "item",
+    "regionIds": ["southeast"],
+    "yearRange": null,
+    "difficulty": "easy",
+    "points": 0,
+    "content": {
+      "prompt": "You found the Swamp Map!",
+      "itemName": "Swamp Map",
+      "itemEffect": "Use once to skip a movement penalty from a weather event in the Southeast region."
+    },
+    "tags": ["item", "weather"],
+    "source": "geography"
+  },
+  {
+    "id": "cen-q-001",
+    "type": "question",
+    "regionIds": ["central"],
+    "yearRange": { "start": 1930, "end": 1940 },
+    "difficulty": "medium",
+    "points": 10,
+    "content": {
+      "prompt": "The 1930s 'Dust Bowl' devastated which central US region, forcing thousands of families to migrate west?",
+      "answer": "The Great Plains (Oklahoma, Kansas, Texas Panhandle, Colorado, New Mexico)",
+      "options": ["The Great Plains", "The Mississippi Delta", "The Ohio Valley", "The Great Lakes region"],
+      "hint": "Think drought + wind + topsoil erosion"
+    },
+    "tags": ["history", "weather", "agriculture", "1930s"],
+    "source": "history"
+  },
+  {
+    "id": "cen-q-002",
+    "type": "question",
+    "regionIds": ["central"],
+    "yearRange": null,
+    "difficulty": "easy",
+    "points": 5,
+    "content": {
+      "prompt": "What is the longest river in the United States, running through the Central region?",
+      "answer": "The Missouri River (longest) or the Mississippi River (most famous)",
+      "options": ["The Missouri River", "The Mississippi River", "The Ohio River", "The Arkansas River"],
+      "hint": "Mark Twain wrote about life on this river"
+    },
+    "tags": ["geography", "rivers"],
+    "source": "geography"
+  },
+  {
+    "id": "cen-q-003",
+    "type": "question",
+    "regionIds": ["central"],
+    "yearRange": { "start": 1960, "end": 1990 },
+    "difficulty": "hard",
+    "points": 15,
+    "content": {
+      "prompt": "What 1980 volcanic eruption in Washington State was one of the most significant in US history?",
+      "answer": "Mount St. Helens",
+      "options": ["Mount St. Helens", "Mount Rainier", "Mount Hood", "Crater Lake"],
+      "hint": "It blew its top on May 18, 1980"
+    },
+    "tags": ["geology", "disaster", "1980s"],
+    "source": "geography"
+  },
+  {
+    "id": "cen-task-001",
+    "type": "task",
+    "regionIds": ["central"],
+    "yearRange": null,
+    "difficulty": "medium",
+    "points": 10,
+    "content": {
+      "prompt": "Corn Belt Challenge: Name all 5 of the top corn-producing states in the US.",
+      "taskDescription": "Team has 60 seconds. 2 points per correct state.",
+      "answer": "Iowa, Illinois, Nebraska, Minnesota, Indiana (also: Kansas, Ohio, South Dakota)"
+    },
+    "tags": ["agriculture", "geography", "speed-round"],
+    "source": "geography"
+  },
+  {
+    "id": "cen-item-001",
+    "type": "item",
+    "regionIds": ["central"],
+    "yearRange": null,
+    "difficulty": "hard",
+    "points": 0,
+    "content": {
+      "prompt": "You found the Tornado Shelter Token!",
+      "itemName": "Tornado Shelter Token",
+      "itemEffect": "Use once to completely negate any weather event effect in the Central region."
+    },
+    "tags": ["item", "weather", "protection"],
+    "source": "geography"
+  },
+  {
+    "id": "west-q-001",
+    "type": "question",
+    "regionIds": ["west"],
+    "yearRange": { "start": 1848, "end": 1870 },
+    "difficulty": "medium",
+    "points": 10,
+    "content": {
+      "prompt": "What 1848 event in California triggered a massive migration of fortune-seekers to the West Coast?",
+      "answer": "The California Gold Rush (gold discovered at Sutter's Mill)",
+      "options": ["The California Gold Rush", "The Homestead Act", "The Transcontinental Railroad completion", "The Oregon Trail opening"],
+      "hint": "Prospectors were called '49ers' after the year it peaked"
+    },
+    "tags": ["history", "california", "1800s"],
+    "source": "history"
+  },
+  {
+    "id": "west-q-002",
+    "type": "question",
+    "regionIds": ["west"],
+    "yearRange": { "start": 1990, "end": 2010 },
+    "difficulty": "medium",
+    "points": 10,
+    "content": {
+      "prompt": "What major California earthquake in 1994 measured 6.7 and caused widespread damage in the Los Angeles area?",
+      "answer": "The Northridge Earthquake",
+      "options": ["The Northridge Earthquake", "The Loma Prieta Earthquake", "The San Francisco Earthquake", "The Long Beach Earthquake"],
+      "hint": "It hit in the San Fernando Valley on January 17"
+    },
+    "tags": ["geology", "disaster", "california", "1990s"],
+    "source": "geography"
+  },
+  {
+    "id": "west-q-003",
+    "type": "question",
+    "regionIds": ["west"],
+    "yearRange": null,
+    "difficulty": "easy",
+    "points": 5,
+    "content": {
+      "prompt": "What is the tallest mountain in North America, located in Alaska?",
+      "answer": "Denali (formerly Mount McKinley)",
+      "options": ["Denali", "Mount Rainier", "Mount Whitney", "Mount Logan"],
+      "hint": "Its name means 'The High One' in the Athabascan language"
+    },
+    "tags": ["geography", "mountains", "alaska"],
+    "source": "geography"
+  },
+  {
+    "id": "west-q-004",
+    "type": "question",
+    "regionIds": ["west"],
+    "yearRange": { "start": 1960, "end": 2000 },
+    "difficulty": "hard",
+    "points": 15,
+    "content": {
+      "prompt": "What is the name of the technology hub in the San Francisco Bay Area that became synonymous with the tech industry?",
+      "answer": "Silicon Valley",
+      "options": ["Silicon Valley", "The Tech Corridor", "Digital Bay", "The Innovation Strip"],
+      "hint": "Named after the material used in computer chips"
+    },
+    "tags": ["technology", "culture", "california"],
+    "source": "culture"
+  },
+  {
+    "id": "west-task-001",
+    "type": "task",
+    "regionIds": ["west"],
+    "yearRange": null,
+    "difficulty": "easy",
+    "points": 8,
+    "content": {
+      "prompt": "Pacific Challenge: Name 5 national parks located in the Western US.",
+      "taskDescription": "Team has 45 seconds. 1.5 points per park named correctly.",
+      "answer": "Yellowstone, Grand Canyon, Yosemite, Zion, Bryce Canyon, Rocky Mountain, Olympic, Crater Lake, Glacier, Joshua Tree, Death Valley, Arches, Canyonlands, Mount Rainier, Grand Teton"
+    },
+    "tags": ["geography", "nature", "speed-round"],
+    "source": "geography"
+  },
+  {
+    "id": "west-item-001",
+    "type": "item",
+    "regionIds": ["west"],
+    "yearRange": null,
+    "difficulty": "medium",
+    "points": 0,
+    "content": {
+      "prompt": "You found the Gold Nugget!",
+      "itemName": "Gold Nugget",
+      "itemEffect": "Worth 10 bonus points when you complete all West region tasks. Inspired by the 1849 Gold Rush."
+    },
+    "tags": ["item", "history", "bonus"],
+    "source": "history"
+  },
+  {
+    "id": "all-q-001",
+    "type": "trivia",
+    "regionIds": [],
+    "yearRange": { "start": 1776, "end": 1800 },
+    "difficulty": "medium",
+    "points": 10,
+    "content": {
+      "prompt": "In what year was the Declaration of Independence signed?",
+      "answer": "1776",
+      "options": ["1774", "1776", "1778", "1781"],
+      "hint": "It's a very famous year in American history"
+    },
+    "tags": ["history", "founding", "all-regions"],
+    "source": "history"
+  },
+  {
+    "id": "all-q-002",
+    "type": "trivia",
+    "regionIds": [],
+    "yearRange": null,
+    "difficulty": "easy",
+    "points": 5,
+    "content": {
+      "prompt": "How many stripes are on the American flag?",
+      "answer": "13",
+      "options": ["13", "50", "48", "15"],
+      "hint": "They represent something from the country's founding"
+    },
+    "tags": ["trivia", "symbols", "all-regions"],
+    "source": "culture"
+  },
+  {
+    "id": "all-challenge-001",
+    "type": "challenge",
+    "regionIds": [],
+    "yearRange": null,
+    "difficulty": "hard",
+    "points": 20,
+    "content": {
+      "prompt": "CHAMPIONSHIP CHALLENGE: Name the capitals of all 4 game regions — one state per region — in 60 seconds.",
+      "taskDescription": "Team must name one state capital per region (Northeast, Southeast, Central, West). 5 points each.",
+      "answer": "Any valid: Northeast: Boston/Albany/Trenton/Harrisburg/Concord/Providence/Hartford/Augusta/Montpelier/Dover | Southeast: Atlanta/Tallahassee/Columbia/Raleigh/Richmond/Annapolis/Nashville/Jackson/Baton Rouge | Central: Columbus/Indianapolis/Springfield/Jefferson City/Des Moines/Madison/Saint Paul/Lincoln/Topeka/Pierre/Bismarck/Frankfort | West: Sacramento/Salem/Olympia/Phoenix/Santa Fe/Denver/Boise/Helena/Carson City/Salt Lake City/Cheyenne/Juneau/Honolulu"
+    },
+    "tags": ["geography", "capitals", "challenge", "all-regions"],
+    "source": "geography"
+  }
+]

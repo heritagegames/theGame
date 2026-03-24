@@ -1,0 +1,45 @@
+[
+  {
+    "id": "us-map",
+    "name": "American Odyssey",
+    "description": "Traverse the four regions of the United States. Answer questions, complete tasks, and collect items to prove your knowledge of America across any era.",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "regions": [
+      {
+        "id": "northeast",
+        "name": "Northeast",
+        "color": "northeast",
+        "states": ["Maine", "Vermont", "New Hampshire", "Massachusetts", "Rhode Island", "Connecticut", "New York", "New Jersey", "Pennsylvania"],
+        "weatherCities": ["New York,NY,US", "Boston,MA,US", "Philadelphia,PA,US"],
+        "description": "From the rocky coasts of Maine to the urban corridors of the mid-Atlantic, the Northeast is where American history began."
+      },
+      {
+        "id": "southeast",
+        "name": "Southeast",
+        "color": "southeast",
+        "states": ["Delaware", "Maryland", "Virginia", "West Virginia", "North Carolina", "South Carolina", "Georgia", "Florida", "Alabama", "Mississippi", "Tennessee", "Kentucky", "Arkansas", "Louisiana"],
+        "weatherCities": ["Atlanta,GA,US", "Miami,FL,US", "Nashville,TN,US"],
+        "description": "From the Appalachians to the Gulf Coast, the Southeast pulses with music, history, and rich cultural heritage."
+      },
+      {
+        "id": "central",
+        "name": "Central",
+        "color": "central",
+        "states": ["Ohio", "Indiana", "Illinois", "Michigan", "Wisconsin", "Minnesota", "Iowa", "Missouri", "North Dakota", "South Dakota", "Nebraska", "Kansas", "Oklahoma", "Texas"],
+        "weatherCities": ["Chicago,IL,US", "Dallas,TX,US", "Minneapolis,MN,US"],
+        "description": "Heartland of America — the Great Plains, the Great Lakes, and the Mississippi River define a region of industry and agriculture."
+      },
+      {
+        "id": "west",
+        "name": "West",
+        "color": "west",
+        "states": ["Montana", "Wyoming", "Colorado", "New Mexico", "Idaho", "Utah", "Arizona", "Nevada", "Washington", "Oregon", "California", "Alaska", "Hawaii"],
+        "weatherCities": ["Los Angeles,CA,US", "Seattle,WA,US", "Denver,CO,US"],
+        "description": "From the Rockies to the Pacific, the West is defined by vast landscapes, innovation, and the spirit of the frontier."
+      }
+    ],
+    "contentTypes": ["question", "task", "item", "challenge", "trivia"],
+    "winCondition": "First team to reach proficiency in all 4 regions wins. Proficiency requires answering at least 3 questions correctly and completing 1 task per region."
+  }
+]
