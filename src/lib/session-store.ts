@@ -56,7 +56,7 @@ export function createSession(
           proficiencyReached: false,
         } satisfies RegionProgress,
       ])
-    ) as Record<RegionId, RegionProgress>,
+    ) as unknown as Record<RegionId, RegionProgress>,
     cardsDrawn: [],
     activeEffects: [],
   }));
