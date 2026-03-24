@@ -21,7 +21,7 @@ export async function PATCH(
   if (!session) return NextResponse.json({ error: "Session not found" }, { status: 404 });
 
   const body = await req.json();
-  const allowedUpdates: (keyof typeof body)[] = ["year", "state", "yearLocked", "settings"];
+  const allowedUpdates: string[] = ["year", "state", "yearLocked", "settings"];
   const updates: Record<string, unknown> = {};
 
   for (const key of allowedUpdates) {
